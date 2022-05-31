@@ -1,0 +1,46 @@
+{
+	"name": "React-forntend",
+	"version": "1.0.1",
+	"description": "RactJS , Bootstrap -- frontend for Codeigniter",
+	"scripts": {
+		"dev": "npm run development",
+		"development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch": "npm run development -- --watch",
+		"watch-poll": "npm run watch -- --watch-poll",
+		"hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"prod": "npm run production",
+		"production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"test": "jest"
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env",
+			"@babel/preset-react"
+		]
+	},
+	"devDependencies": {
+		"@babel/preset-env": "^7.9.6",
+		"@babel/preset-react": "^7.9.4",
+		"axios": "^0.19.2",
+		"babel-jest": "^26.0.1",
+		"bootstrap": "^4.4.1",
+		"cross-env": "^7.0.2",
+		"jest": "^26.0.1",
+		"jquery": "^3.6.0",
+		"laravel-mix": "^5.0.4",
+		"popper.js": "^1.12",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-test-renderer": "^16.13.1",
+		"resolve-url-loader": "^3.1.1",
+		"sass": "^1.26.5",
+		"sass-loader": "^8.0.2"
+	},
+	"author": "Jinesh Francisco",
+	"license": "ISC",
+	"dependencies": {
+		"datatables.net-dt": "^1.12.0",
+		"react-data-table-component": "^7.5.2",
+		"react-router-dom": "^5.2.0"
+	}
+}
