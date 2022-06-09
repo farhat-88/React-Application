@@ -194,7 +194,41 @@ body {
 .display_btn{
   display: flex;
 }
-.btn.focus, .btn:focus {
+.add-btn.focus, .add-btn:focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem #2CB52D;
+}
+.sweet1Button{
+  /* width:25em!important;
+  height: 300px!important; */
+  background-color: #2CB52D!important;
+  color: #ffffff!important;
+}
+.sweet2Buttton{
+  background-color: rgb(150, 2, 26)!important;
+  color: #f5f5f7 !important;
+}
+.sweet1Button,
+.sweet2Buttton{
+  padding: 20px!important; 
+   font-size: 2em!important; 
+   font-weight: 100!important; 
+   min-width: unset!important;
+  width: 125px;
+}
+body.swal2-height-auto {
+  height: 100vh!important;
+}
+.btn.focus, .btn:focus {
+  outline: 0;
+  box-shadow:unset;
+}
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #141114;
+}
+.edit {
+  background-color: #002F63!important;
+  color: #ffffff!important;
 }

@@ -8,6 +8,10 @@ import Create from './components/Create';
 import Edit from './components/Edit';
 import EditTable from './components/EditTable';
 import Example from './components/Example';
+import AddUserForm from './components/AddUserForm'
+import EditUserForm from './components/EditUserForm'
+import UserTable from './components/UserTable'
+import NumberSum from './components/NumberSum'
 import './MyApp.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -55,6 +59,18 @@ function App() {
 				</Route>
 				<Route exact path="/codeigniter-react-frontend-master/example">
 					<Example showAlert={showAlert}/>
+				</Route>
+				<Route exact path="/codeigniter-react-frontend-master/edit_user">
+					<EditUserForm showAlert={showAlert}/>
+				</Route>
+				<Route exact path="/codeigniter-react-frontend-master/add_user">
+					<AddUserForm showAlert={showAlert}/>
+				</Route>
+				<Route exact path="/codeigniter-react-frontend-master/usr_table">
+					<UserTable showAlert={showAlert}/>
+				</Route>
+				<Route exact path="/codeigniter-react-frontend-master/number_sum">
+					<NumberSum showAlert={showAlert}/>
 				</Route>
 				</Switch>
 				</div>

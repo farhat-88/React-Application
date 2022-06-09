@@ -24,8 +24,23 @@ export default function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/codeigniter-react-frontend-master/edit_table">Editable</Link>
                         </li>
+                        <div className="dropdown nav-item">
+                            <div className="dropdown">
+                                <button className="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown button
+                                </button>
+                                <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <Link className="dropdown-item" to="#">Action</Link>
+                                    <Link className="dropdown-item" to="#">Another action</Link>
+                                    <Link className="dropdown-item" to="#">Something else here</Link>
+                                </div>
+                            </div>
+                        </div>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/codeigniter-react-frontend-master/example">Example</Link>
+                            <Link className="nav-link" to="/codeigniter-react-frontend-master/example">UserTable</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/codeigniter-react-frontend-master/number_sum">NumberSum</Link>
                         </li>
                     </ul>
                 </div>

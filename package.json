@@ -41,6 +41,8 @@
 	"dependencies": {
 		"datatables.net-dt": "^1.12.0",
 		"react-data-table-component": "^7.5.2",
-		"react-router-dom": "^5.2.0"
+		"react-router-dom": "^5.2.0",
+		"reactjs-popup": "^2.0.5",
+		"sweetalert2": "^11.4.17"
 	}
 }
